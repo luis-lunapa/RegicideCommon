@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-    s.name              = 'Common'
+    s.name              = 'common'
     s.version           = '1.0.0'
     s.summary           = 'Test of releasing framework common'
     s.homepage          = 'http://example.com/'
