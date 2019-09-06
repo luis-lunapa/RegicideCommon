@@ -8,9 +8,11 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
+    s.ios.vendored_frameworks = "common.framework"
     s.source            = { :http => 'https://luislunapa.com/oracle/common.zip' }
 
-    s.ios.vendored_frameworks = 'common.framework'
-    s.source_files  = "Classes", "Classes/**/*.{h,m}"
-    s.exclude_files = "Classes/Exclude"
+    # s.ios.vendored_frameworks = 'common.framework'
+    # s.source_files  = "common/Headers/*.{h,m}"
+    # s.library = "common"
+     s.exclude_files = "Classes/Exclude"
 end  
