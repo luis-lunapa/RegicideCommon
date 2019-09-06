@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.source            = { :http => 'https://www.luislunapa.com/oracle/common.zip' }
 
     s.ios.deployment_target = '8.0'
-    s.ios.vendored_frameworks = 'MySDK.framework'
+    s.ios.vendored_frameworks = 'common.framework'
 end  
