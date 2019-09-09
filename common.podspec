@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.ios.deployment_target = '11.0'
     s.vendored_frameworks = 'common.framework'
-    s.source            = { :http => 'https://luislunapa.com/oracle/common.zip' }
+    s.source            = { :http => 'http://slc12jce.us.oracle.com:8081/artifactory/generic_repo/ios/frameworks/chartdataparser/chartdataparser-1.2.0.zip' }
      s.exclude_files = "Classes/Exclude"
 end  
