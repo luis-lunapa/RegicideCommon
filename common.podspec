@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.ios.deployment_target = '11.0'
-    s.vendored_frameworks = 'common/common.framework'
     s.source            = { :http => 'https://luislunapa.com/oracle/common.zip' }
-     s.exclude_files = "Classes/Exclude"
+    s.vendored_frameworks = 'common.framework'
+    s.source_files = 'Headers/*.{h,m}'
+    s.exclude_files = "Classes/Exclude"
 end  
